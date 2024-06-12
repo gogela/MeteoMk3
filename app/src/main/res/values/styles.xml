@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <resources>
+        <style name="GreenText" parent="TextAppearance.AppCompat">
+            <item name="android:textColor">#00FF00</item>
+        </style>
+        <style name="LargeTextInCircle" parent="TextAppearance.AppCompat">
+            <item name="android:textColor">#AAAAAA</item>
+            <item name="android:textSize">40sp</item>
+            <item name="android:textAlignment">center</item>
+            <item name="android:background">@drawable/circle</item>
+        </style>
+
+    <style name="SmallTextInBox" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:background">@drawable/rounded_corners</item>
+    </style>
+
+    <style name="LargeClock" parent="TextAppearance.AppCompat">
+        <item name="android:textColor">#AAAAAA</item>
+        <item name="android:textSize">80sp</item>
+        <item name="android:textAlignment">center</item>
+    </style>
+    <style name="Icon" parent="TextAppearance.AppCompat">
+        <item name="android:tint">#AAAAAA</item>
+    </style>
+    </resources>
